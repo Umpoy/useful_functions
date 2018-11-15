@@ -6,4 +6,4 @@ function getBinary(string) {
     return toBinary.join(' 0')
 }
 
-console.log(getBinary('helloa'));
+console.log(getBinary('hello'));
