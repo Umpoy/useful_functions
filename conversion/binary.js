@@ -1,3 +1,5 @@
+
+
 function getBinary(string) {
     var split = string.split('');
     var toUnicode = split.map(index => index.charCodeAt(0));
@@ -7,3 +9,4 @@ function getBinary(string) {
 }
 
 console.log(getBinary('hello'));
+console.log(getBinary('world'));
