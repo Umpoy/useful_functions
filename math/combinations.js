@@ -1,3 +1,6 @@
 var factorial = require('./factorial.js');
 
-console.log(factorial(5))
+const combination = (n, r) => factorial(n) / (factorial(r) * factorial(n - r));
+
+console.log(combination(6, 4));
+console.log(combination(19, 1))

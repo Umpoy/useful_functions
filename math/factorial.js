@@ -4,4 +4,4 @@ console.log(factorial(5));
 console.log(factorial(1));
 console.log(factorial(20));
 
-module.export = factorial;
+module.exports = factorial;
